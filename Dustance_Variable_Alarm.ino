@@ -7,8 +7,24 @@
 
   by Heonics
 
-  
+  https://github.com/Heonics/Distance_Variable_Alarm/blob/main/Dustance_Variable_Alarm.ino
+
+
+Required Materials :
+1 X Arduino Uno
+1 X HC-SR04
+1 X 5V Buzzer
+1 X Breadboard(optional)
+
+Circuit Diagram :
+Arduino Digital Pin 13 -> Buzzer +ve
+Arduino GND -> Buzzer -ve
+Arduino 5V -> HC-SR04 +ve
+Arduino GND -> HC-SR04 +ve
+Arduino Digital Pin 12 -> HC-SR04 Echo
+Arduino Digital Pin 13 -> HC-SR04 Trig
 */
+
 #include <HCSR04.h>//Install this Library from Library Manager in Arduino IDE
 
 UltraSonicDistanceSensor distanceSensor(11, 12);  // Initialize the HC-SR04 sensor that is connected to digital pins 11(Trig) and 12(Echo).
