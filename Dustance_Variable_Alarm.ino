@@ -22,7 +22,7 @@ Arduino GND -> Buzzer -ve
 Arduino 5V -> HC-SR04 +ve
 Arduino GND -> HC-SR04 +ve
 Arduino Digital Pin 12 -> HC-SR04 Echo
-Arduino Digital Pin 13 -> HC-SR04 Trig
+Arduino Digital Pin 11 -> HC-SR04 Trig
 */
 
 #include <HCSR04.h>//Install this Library from Library Manager in Arduino IDE
